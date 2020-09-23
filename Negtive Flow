@@ -1,0 +1,7 @@
+My thought process on negative flow:
+Since I do not have enough time to write the test cases for negative flow, here are some test cases I could think of:
+1) Mobile number for OTP is not 8 digit, not valid, not a local number
+2) OTP generated is not auto-filled
+3) User Form: User did not enter any 1 of this fields [Name, IC No., Date of Issue , Date of Birth]
+4) User Form: Validate these fields [Name, IC No., Date of Issue , Date of Birth]
+5) User wants to change lanugage halfway during the onboarding process
