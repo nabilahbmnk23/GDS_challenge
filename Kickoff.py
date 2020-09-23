@@ -21,7 +21,7 @@ class AppTest(unittest.TestCase):
         self.driver.quit()
 
     def test_happyFlow(self):
-        mobilenum = "87936949"
+        mobilenum = "83673418"
         el1 = self.driver.find_element_by_xpath('/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.view.ViewGroup/android.widget.ScrollView/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/android.widget.CheckedTextView[2]')
         el1.click()
         print('中文 Selected')
