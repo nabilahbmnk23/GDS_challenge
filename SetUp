@@ -3,4 +3,5 @@ SETUP:
 Download Appium :http://appium.io/ to connect phone to server
 On Android phone (with the application installed), enable USB debugging mode connect to machine via USB
 Start Appium Server
+In the Kickoff.py change the phone number on line 24 to the mobile number with the app installed[mobilenum]
 Execute Kickoff.py
